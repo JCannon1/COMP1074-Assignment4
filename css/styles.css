@@ -1,0 +1,56 @@
+li a {
+    color: black;
+} 
+/* Made the navbar links the same colour as they are on the Georgian College Website */
+li a:hover {
+    background-color:  #004689;
+    color: white;
+}
+/* Positioned the container */
+.container {
+    position: relative;
+    top: 170px;
+}
+/* Positioned the footer */
+footer {
+    position: relative;
+    top: 530px;
+}
+/* Positioned the border and chnaged the background colour */
+.border {
+    position: relative;
+    right: 400px;
+    top: -50px;
+    height: 10px;
+    width: 1690px;
+    background-color: #004689;
+}
+/* Made the button colours match with the Georgian College website */
+.btn {
+    background-color: #004689;
+    color: white;
+}
+/* Made the buttons green when hovered over */
+.btn:hover {
+    background-color: #3AB008;
+    color: white;
+}
+/* Made the navbar collapse when needed */
+div[class="collapse navbar-collapse"] {
+    border: none;
+}
+/* Changed the text to black */
+.navbar-light {
+    color: black;
+}
+/* Chnaged the links to black text */
+.links {
+    color: black;
+}
+/* Made the links turn white on hover */
+.links:hover {
+    color: white;
+}
+/* .nav-item:hover {
+    color: white;
+} */
